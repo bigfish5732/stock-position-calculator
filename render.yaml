@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: stock-position-calculator
+    runtime: docker
+    plan: free
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DATA_DIR
+        value: /data

@@ -1,0 +1,16 @@
+{
+  "name": "stock-position-calculator",
+  "version": "1.0.0",
+  "description": "股票仓位计算器：仓位上限、分批建仓、止损止盈、超仓提醒",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
